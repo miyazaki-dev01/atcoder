@@ -1,17 +1,14 @@
 {
+  "version": 4,
   "configurations": [
     {
       "name": "AtCoder",
-      "includePath": [
-        "${workspaceFolder}/**",
-        "/lib/ac-library/"
-      ],
+      "compilerPath": "/usr/bin/g++-12",
+      "includePath": ["${workspaceFolder}/**", "/lib/ac-library"],
       "defines": [],
-      "compilerPath": "/usr/bin/gcc",
       "cStandard": "c11",
       "cppStandard": "c++17",
       "intelliSenseMode": "linux-gcc-x64"
     }
-  ],
-  "version": 4
+  ]
 }

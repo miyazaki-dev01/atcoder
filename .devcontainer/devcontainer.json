@@ -14,7 +14,7 @@
       "settings": {
         "editor.defaultFormatter": "esbenp.prettier-vscode", // Prettierをデフォルトフォーマッタに設定
         "editor.formatOnSave": true,                         // ファイル保存時に自動フォーマット
-        "C_Cpp.intelliSenseEngine": "default",               // C/C++の補完エンジン
+        "C_Cpp.intelliSenseEngine": "default"                // C/C++の補完エンジン
       }
     }
   }

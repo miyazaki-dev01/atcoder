@@ -21,6 +21,7 @@ CONTEST_DIR="${WORKDIR}/src/atcoder/abc"
 PROBLEM_DIR="${CONTEST_DIR}/$1"
 CPP_TEMPLATE="${WORKDIR}/templates/atcoder.cpp"
 PYTHON_TEMPLATE="${WORKDIR}/templates/atcoder.py"
+INPUT_TEMPLATE="${WORKDIR}/templates/input.txt"
 README_TEMPLATE="${WORKDIR}/templates/README.md"
 
 # 該当コンテスト(例：abc123)のフォルダを作成し，テストデータをダウンロードする
@@ -37,5 +38,6 @@ for DIRPATH in $PROBLEMS; do
 
     cp -n $CPP_TEMPLATE "${DIRPATH}/$1_${DIRPATH##*/}.cpp"
     cp -n $PYTHON_TEMPLATE "${DIRPATH}/$1_${DIRPATH##*/}.py"
+    cp -n $INPUT_TEMPLATE "${DIRPATH}/input.txt"
     cp -n $README_TEMPLATE "${DIRPATH}/README.md"
 done

@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 services:
   atcoder:
     container_name: AtCoder
@@ -6,6 +6,7 @@ services:
     volumes:
       - .:/app
     ports:
-    - "8080:8080"
+      - "8080:8080"
     tty: true
+    stdin_open: true
     command: ["/bin/bash"]
