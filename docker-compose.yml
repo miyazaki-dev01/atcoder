@@ -1,7 +1,6 @@
-version: "3.8"
 services:
-  atcoder:
-    container_name: AtCoder
+  app:
+    container_name: atcoder
     build: .
     volumes:
       - .:/app
